@@ -4,4 +4,9 @@ public class Crew extends FlugPersonen {
         this.rolle = funktion;
     }
 
+    @Override
+    public String getRolle() {
+        return this.rolle;
+    }
+
 }

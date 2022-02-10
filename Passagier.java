@@ -5,5 +5,10 @@ public class Passagier extends FlugPersonen {
         this.rolle = "Passagier";
         this.ticketPreis = ticketPreis;
     }
+
+    @Override
+    public String getRolle() {
+        return this.rolle;
+    }
     
 }

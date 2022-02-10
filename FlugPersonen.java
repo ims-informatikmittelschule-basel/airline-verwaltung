@@ -1,10 +1,8 @@
 import java.io.Serializable;
 
-public class FlugPersonen implements Serializable{
+abstract class FlugPersonen implements Serializable{
     public String rolle;
 
-    public String getRolle() {
-        return rolle;
-    }
+    public abstract String getRolle();
 
 }
